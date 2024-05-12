@@ -51,7 +51,7 @@ export default function Project() {
       github: "https://github.com/Ayoub-YG/bankist-project",
       lien: "https://bankist-sigma-sand.vercel.app/",
       technologies: ["html", "css", "advanced javaScript"],
-      Note:"Note: no responsive"
+      Note:"Note: no responsive, for testing {user1 :js, code Pin :1111 ; user2: jd, 2222 }"
     },
   ];
 
@@ -73,10 +73,10 @@ export default function Project() {
               </div>
               <p className="font-bold ml-5 sm:ml-0">{project.title}</p>
               <h1 className="text-xs ml-5 sm:ml-0 ">{project.description}</h1>
-              <h1 className="text-[10px] ml-7 text-red-300 " > {project.Note}</h1>
+              <h1 className="text-[9.4px] ml-5 text-red-300 " > {project.Note}</h1>
               <h1 className="text-sm ml-5 sm:ml-0"><span>technologies:  </span><span className="text-xs">{project.technologies.join(" - ")}</span></h1>
               <h2 className=" text-sm ml-5 sm:ml-0">
-                <a href={project.lien} className=" border mr-4 border-gray-500 rounded-3xl px-4 py-1" >github</a> <a className="border mr-4 border-gray-500 rounded-3xl px-4 py-1" href={project.github} >link</a>{" "}
+                <a href={project.github} className=" border mr-4 border-gray-500 rounded-3xl px-4 py-1" >github</a> <a className="border mr-4 border-gray-500 rounded-3xl px-4 py-1" href={project.lien} >link</a>{" "}
               </h2>
             </div>
           ))}

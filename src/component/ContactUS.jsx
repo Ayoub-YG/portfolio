@@ -32,7 +32,7 @@ export default function ContactUS() {
     };
 
   return (
-    <div className="w-full flex justify-center px-[7%] py-[3%] bg-white text-black">
+    <div id="contact" className="w-full flex justify-center px-[7%] py-[3%] bg-white text-black">
       <div className="flex  gap-3 flex-col sm:flex-row">
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 bg-gray-100 px-6 py-3">
           <h1 className="font-bold text-xl" >Let me know here</h1>
