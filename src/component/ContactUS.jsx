@@ -1,7 +1,6 @@
 import React,{useRef } from "react";
 import { MdOutlinePlace } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { BsTelephone } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

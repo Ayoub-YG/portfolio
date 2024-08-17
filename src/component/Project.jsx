@@ -3,7 +3,7 @@ import Travel from "../assets/travelApp.png";
 import management from "../assets/managerApp.png";
 import Todo from "../assets/todoList.png";
 import bankist from "../assets/bankist.png";
-import passwordGe from "../assets/passwordGen.png";
+import passwordGe from "../assets/carshub.png";
 
 export default function Project() {
   const projects = [
@@ -35,13 +35,13 @@ export default function Project() {
       technologies: ["reactJS", "tailwindCss"],
     },
     {
-      title: "Password generator",
+      title: "Cars Hub",
       img: passwordGe,
       description:
-        "The Password Generator is a handy tool designed to help users create secure and unique passwords for their accounts, websites, and online services. ",
-      github: "https://github.com/Ayoub-YG/create-password",
-      lien: "https://create-password-ayoubyagoubis-projects.vercel.app/",
-      technologies: ["reactJS", "tailwindCss"],
+        "A website that displays cars with full information is a specialized platform where users can browse and explore a wide range of vehicles, each accompanied by comprehensive details",
+      github: "https://github.com/Ayoub-YG/carsHub",
+      lien: "https://cars-hub-beta.vercel.app/",
+      technologies: ["Next.js", "tailwindCss","Rapid API"],
     },
     {
       title: "Bankist",
